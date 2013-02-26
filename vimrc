@@ -1,6 +1,7 @@
 filetype on
 filetype off
 
+set rtp+=/Library/Python/2.7/site-packages/Powerline-beta-py2.7.egg/powerline/bindings/vim
 runtime bundle/unbundle/unbundle.vim
 runtime! config/**/*.vim
 
@@ -16,7 +17,7 @@ set encoding=utf-8
 
 set backspace=indent,eol,start
 set noerrorbells visualbell t_vb= " Disable all bells
-set guifont=Source\ Code\ Pro:h11
+set guifont=Source\ Code\ Pro\ for\ Powerline:h11
 " autocmd BufEnter * lcd %:p:h " Automatically change the pwd to the pwd of the buffer
 
 
