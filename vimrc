@@ -2,6 +2,7 @@ filetype on
 filetype off
 
 set rtp+=/Library/Python/2.7/site-packages/Powerline-beta-py2.7.egg/powerline/bindings/vim
+let g:syntastic_javascript_checkers=['jshint']
 runtime bundle/unbundle/unbundle.vim
 runtime! config/**/*.vim
 
