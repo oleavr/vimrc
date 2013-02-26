@@ -28,3 +28,6 @@
 [submodule "ftbundle/less/less"]
 	path = ftbundle/less/less
 	url = git://github.com/groenewege/vim-less.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git
