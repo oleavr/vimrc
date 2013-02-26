@@ -71,11 +71,11 @@ set nowrap              " do not wrap lines
 " Keyboard shortcuts
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let mapleader=";"
-
-"map <C-N> :bn<CR>
-"map <C-P> :bp<CR>
-"
-"noremap <leader>o <Esc>:CtrlPMixed<CR>
+nmap <C-e> :e#<CR>
+nmap <C-n> :bnext<CR>
+nmap <C-p> :bprev<CR>
+nmap \q :nohlsearch<CR>
+nmap \o :set paste!<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Completion/Wildcards
