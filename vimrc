@@ -70,10 +70,9 @@ set nowrap              " do not wrap lines
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Keyboard shortcuts
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let mapleader=";"
-nmap <C-e> :e#<CR>
-nmap <C-n> :bnext<CR>
-nmap <C-p> :bprev<CR>
+let mapleader=","
+nmap ; :CtrlPBuffer<CR>
+nmap \e :NERDTreeToggle<CR>
 nmap \q :nohlsearch<CR>
 nmap \o :set paste!<CR>
 
