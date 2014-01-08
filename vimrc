@@ -3,6 +3,13 @@ filetype off
 
 set rtp+=/Library/Python/2.7/site-packages/Powerline-beta-py2.7.egg/powerline/bindings/vim
 let g:syntastic_javascript_checkers=['jshint']
+let g:syntastic_javascript_jshint_conf="/Users/oleavr/src/soundrop/soundrop-next/.jshintrc"
+let g:syntastic_c_no_default_include_dirs = 1
+let g:syntastic_c_no_include_search = 1
+let g:syntastic_c_config_file = '/Users/oleavr/.syntastic_c_config'
+let g:syntastic_cpp_no_default_include_dirs = 1
+let g:syntastic_cpp_no_include_search = 1
+let g:syntastic_cpp_config_file = '/Users/oleavr/.syntastic_c_config'
 runtime bundle/unbundle/unbundle.vim
 runtime! config/**/*.vim
 
@@ -44,7 +51,7 @@ set laststatus=2
 set showmatch           " show matching brackets
 set mat=5               " how many tenths of a second to blink matching brackets for
 set incsearch           " search as you type
-set hls ignorecase      " Highlight search
+set hls noignorecase    " Highlight search
 set list listchars=tab:>·,extends:> " display tabs
 " Display spaces
 highlight Whitespace ctermbg=darkcyan guibg=darkcyan
@@ -59,10 +66,10 @@ autocmd InsertLeave * match WhiteSpace /\s\+$/
 " set fo=tcrqn            " See Help (complex)
 set ai                  " autoindent
 "set si                  " smartindent
-set tabstop=4           " tab spacing (settings below are just to unify it)
-"set softtabstop=4       " unify
-"set shiftwidth=4        " unify
-"set noexpandtab         " real tabs please!
+"set tabstop=8           " tab spacing (settings below are just to unify it)
+"set softtabstop=2       " unify
+"set shiftwidth=2        " unify
+"set expandtab
 set nowrap              " do not wrap lines
 "set smarttab            " use tabs at the start of a line, spaces elsewhere
 
