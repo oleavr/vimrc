@@ -38,6 +38,7 @@ colorscheme desert
 " Vim UI
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set number              " turn on line numbers
+set ruler               " show the ruler for monitoring the line width
 set hid                 " you can change buffer without saving
 set mouse=a             " use mouse everywhere
 set shortmess=atI       " shortens messages to avoid 'press a key' prompt 
